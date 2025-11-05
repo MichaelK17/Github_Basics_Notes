@@ -100,5 +100,52 @@ Citations:
 
 ---
 
+# Tutorial: How to modify push origin and push the github project to your repo
+
+--- 
+
+## **Step 1: Remove Existing Remote Origin**
+
+```
+git remote remove origin
+```
+
+---
+
+## **Step 2: Add Your Personal GitHub Repository**
+Add your own GitHub repo URL as the new remote origin (replace the URL with your repository link):
+
+```
+git remote add origin <Actual github link like: https://github.com/MichaelK17/COSI153a_React_Native_Navigation_Playground.git>
+```
+
+---
+
+## **Step 3: Verify the New Remote URL**
+```
+git remote -v
+```
+
+---
+
+## **Step 4: Check Your Git Branch**
+Confirm you are on the correct branch (usually `main`):
+```
+git branch
+```
+If you're not on `main`, switch or create it using:
+```
+git checkout -b main
+```
+
+---
+
+## **Step 5: Push Your Local Repository to GitHub**
+```
+git push -u origin main
+```
+
+---
+
 ### Resources (Useful Links)
 - [Github markdown documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
