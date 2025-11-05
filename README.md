@@ -1,4 +1,4 @@
-Tutorial: How to add a github repo and commit/push from VSCode
+# Tutorial: How to add a github repo and commit/push from VSCode
 ---
 
 ## **Step 1: Prerequisites**
@@ -99,3 +99,6 @@ Citations:
 [17] https://www.youtube.com/watch?v=PdW4_jAlPqw
 
 ---
+
+### Resources (Useful Links)
+- [Github markdown documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
